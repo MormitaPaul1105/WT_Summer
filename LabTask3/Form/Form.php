@@ -7,7 +7,7 @@ if(isset($_REQUEST["submit"]))
 $fname=$_POST["fname"];
 $lname=$_POST["lname"];
 $age=$_POST["age"];
-//$des=$_REQUEST['designation'];
+$des=$_REQUEST['designation'];
 $email=$_POST["Email"];
 $password=$_POST["password"];
 $passwordError="";
