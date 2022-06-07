@@ -19,9 +19,9 @@
             <input type="radio" name="designation" value="Senior_Programmer">Senior Programmer
             <input type="radio" name="designation" value="Project_Lead">Project Lead</td></tr>
             <tr><td>Preferred language</td>
-            <td><input type="checkbox" name="P_Language" value="Junior_Progrmmer">Java
-            <input type="checkbox" name="P_Language" value="Senior_Programmer">PHP
-            <input type="checkbox" name="P_Language" value="Project_Lead">C++</td></tr>
+            <td><input type="checkbox" name="P_Language" value="java">Java
+            <input type="checkbox" name="P_Language" value="php">PHP
+            <input type="checkbox" name="P_Language" value="c++">C++</td></tr>
             <tr><td>E-mail: </td>
             <td><input type="text" name="Email"></tr></td>
             <tr><td>Password: </td>
