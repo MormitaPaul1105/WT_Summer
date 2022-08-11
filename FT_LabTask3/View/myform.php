@@ -11,16 +11,9 @@
     
     <!-- enctype use when use $_FILES -->
     <form action="" method="POST" enctype ="multipart/form-data" onsubmit="return formcheck()" >
-   
         <table>
             
-       
             <tr>
-            
-            <label id="nameerror">
-              Please enter your first name
-            </label>
-           
                 <td>
                     First Name :
                 </td>
@@ -28,7 +21,7 @@
                     <input type="text"  name = "fname" id="f1" onkeyup="fnameval()"  >
                 </td>
                 
-            </tr><br>
+            </tr>
             <tr>
                 <label id="lnameerror">Please enter your last name</label>
                 <td>
@@ -40,12 +33,7 @@
                 </td>
                
             </tr>
-            <br>
             <tr>
-            <label id="age">
-              Please enter your age
-            </label>
-           
                 <td>
                     Age :
                 </td>
@@ -76,8 +64,11 @@
                 <td>
                     <input type="text`" name="email" id="mail" onkeyup="emailcheck()">
                 </td>
-                </tr>
-                <tr>
+            </tr>
+            <label id="nameerror">
+              Please enter your first name
+            </label>
+            <tr>
                 <p id="passw">Enter correct password</p>
                 <td>
                     Password :
@@ -96,17 +87,18 @@
                 </td>
 
             </tr>
-            <td> <p id="sub"></p></td>
-          
-  <tr>
-               <td>
-                <input type="submit" name="submit" class="button"  value="Submit"> 
+            
+
+            <p id="sub"></p>
+        </table>
+        
+                <input type="submit" name="submit" class="button" value="Submit">
                 
-                <input type="reset" name="reset" class="button" value="Reset"></td></tr>
                 
-    </form> 
-    </table>
-  
+              
+                <input type="reset" name="reset" class="button" value="Reset">
+                
+    </form>
 
     <script src="../JS/myscript.js"></script>
     
